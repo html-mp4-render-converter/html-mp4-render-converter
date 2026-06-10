@@ -1,0 +1,15 @@
+{
+  "name": "html-mp4-render-converter",
+  "version": "1.0.0",
+  "description": "Microservicio: convierte HTML a MP4 usando Puppeteer + FFmpeg. Despliegue en Render.com (Docker).",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.3",
+    "fluent-ffmpeg": "^2.1.2",
+    "puppeteer": "^23.11.1",
+    "uuid": "^11.0.0"
+  }
+}
